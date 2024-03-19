@@ -23,6 +23,18 @@ Pokemon Explorer es una aplicación móvil diseñada para permitir a los usuario
 - **ViewModel y LiveData**: Para la arquitectura MVVM (Model-View-ViewModel) que separa la lógica de presentación de la interfaz de usuario.
 - **RecyclerView**: Para mostrar la lista de Pokémon de manera eficiente.
 
+##Liberias de terceros SKYDOVES
+
+```kotlin
+dependencies {
+    implementation "com.github.skydoves:progressview:1.1.3"
+    implementation "com.github.skydoves:androidribbon:1.0.4"
+    implementation("com.github.skydoves:transformationlayout:1.1.3")
+}
+```
+
+
+
 ## Arquitectura
 
 La aplicación sigue una arquitectura MVVM (Model-View-ViewModel), donde:
