@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Pokedex by Oseo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="facebook_app_id">1471028703827112</string>
+    <string name="fb_login_protocol_scheme">fb1471028703827112</string>
+    <string name="facebook_client_token">lLWLQRYBtH--tNiC_KT2qKLfI4E</string>
+
+
+    <string name="height">Altura</string>
+    <string name="weight">Peso</string>
+    <string name="base_stats">Puntos de base</string>
+    <string name="hp">HP</string>
+    <string name="atk">ATK</string>
+    <string name="def">DEF</string>
+    <string name="spd">SPD</string>
+    <string name="exp">EXP</string>
+
+
+    <string name="electric">Eléctrico</string>
+    <string name="fire">Fuego</string>
+    <string name="water">Agua</string>
+    <string name="grass">Planta</string>
+    <string name="ice">Hielo</string>
+    <string name="fighting">Lucha</string>
+    <string name="poison">Veneno</string>
+    <string name="ground">Tierra</string>
+    <string name="flying">Volador</string>
+    <string name="psychic">Psíquico</string>
+    <string name="bug">Bicho</string>
+    <string name="rock">Roca</string>
+    <string name="ghost">Fantasma</string>
+    <string name="dark">Siniestro</string>
+    <string name="dragon">Dragón</string>
+    <string name="steel">Acero</string>
+    <string name="fairy">Hada</string>
+    <string name="normal">normal</string>
+
+</resources>
