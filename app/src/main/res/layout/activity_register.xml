@@ -131,17 +131,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/backLogin" />
 
-        <ImageButton
-            android:id="@+id/fbRegister"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
-            android:backgroundTint="#00FFFFFF"
-            android:scaleType="fitCenter"
 
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2"
-            app:srcCompat="@drawable/facebook" />
 
 
 

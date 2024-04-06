@@ -100,7 +100,7 @@ class MainActivity : AppCompatActivity() {
 
         })
 
-        binding.fblogin.setOnClickListener{
+       /* binding.fblogin.setOnClickListener{
             LoginManager.getInstance().registerCallback(callbackManager,
                 object : FacebookCallback<LoginResult>
                 {
@@ -132,7 +132,7 @@ class MainActivity : AppCompatActivity() {
                        // Toast.makeText(this,error.message.toString(),Toast.LENGTH_SHORT)
                     }
                 })
-        }
+        }*/
     }
 
     private fun showHome() {
