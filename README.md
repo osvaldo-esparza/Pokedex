@@ -1,29 +1,42 @@
-# Pokemon Explorer
+<h1 align="center">Pokemon Explorer</h1>
+<p align="center">
+  <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"/></a>
+  <a href="https://android-arsenal.com/api?level=21"><img alt="API" src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat"/></a>
+  <a href="https://github.com/osvaldo-esparza"><img alt="Profile" src="https://www.soti.com.mx/github.svg" with= "100" height= "25"/></a> 
+</p>
 
-![Pokemon Explorer](https://github.com/oseo27jul/Pokedex/blob/main/blob/pantalla2.png)
+<p align= "center">
+    <img src="https://github.com/oseo27jul/Pokedex/blob/main/blob/pantalla2.png" alt="Pokemon Explorer" width="250" height="450">
+</p>
 
-## Descripción
 
-Pokemon Explorer es una aplicación móvil diseñada para permitir a los usuarios explorar y descubrir información detallada sobre diferentes Pokémon. Los usuarios pueden buscar Pokémon por nombre, explorar una lista completa de Pokémon y ver detalles como estadísticas, tipos, habilidades y más.
 
-## Características principales
+## Download
+Go to the [Releases](https://github.com/osvaldo-esparza/Pokedex/releases) to download the latest APK.
 
-- Búsqueda de Pokémon por nombre.
-- Exploración de una lista completa de Pokémon.
-- Detalles detallados de cada Pokémon, incluyendo estadísticas, tipos, habilidades y más.
-- Interfaz de usuario intuitiva y fácil de usar.
 
-## Tecnologías utilizadas
+## Description
 
-- **Android**: La aplicación está desarrollada utilizando el lenguaje de programación Kotlin y el SDK de Android.
-- **Firebase Authentication**: Para la autenticación de usuarios.
-- **Retrofit**: Para realizar llamadas a la PokeAPI y obtener información sobre los Pokémon.
-- **Glide**: Para la carga de imágenes de los Pokémon.
-- **Palette**: Para extraer colores dominantes de las imágenes de los Pokémon y mejorar la interfaz de usuario.
-- **ViewModel y LiveData**: Para la arquitectura MVVM (Model-View-ViewModel) que separa la lógica de presentación de la interfaz de usuario.
-- **RecyclerView**: Para mostrar la lista de Pokémon de manera eficiente.
+Pokemon Explorer is a mobile application designed to allow users to explore and discover detailed information about different Pokémon. Users can search for Pokémon by name, explore a complete list of Pokémon, and view details such as statistics, types, abilities, and more.
 
-##Liberias de terceros SKYDOVES
+## Key Features
+
+- Search for Pokémon by name.
+- Explore a complete list of Pokémon.
+- Detailed details of each Pokémon, including statistics, types, abilities, and more.
+- Intuitive and easy-to-use user interface.
+
+## Technologies Used
+
+- **Android**: The application is developed using the Kotlin programming language and the Android SDK.
+- **Firebase Authentication**: For user authentication.
+- **Retrofit**: To make calls to the PokeAPI and retrieve information about the Pokémon.
+- **Glide**: For loading images of the Pokémon.
+- **Palette**: To extract dominant colors from Pokémon images and enhance the user interface.
+- **ViewModel and LiveData**: For the MVVM (Model-View-ViewModel) architecture that separates UI presentation logic from the user interface.
+- **RecyclerView**: To efficiently display the list of Pokémon.
+
+## libreries SKYDOVES
 
 ```kotlin
 dependencies {
@@ -33,35 +46,58 @@ dependencies {
 }
 ```
 
+## Architecture
+**Pokedex** is based on the MVVM architecture and the Repository pattern, which follows the [Google's official architecture guidance](https://developer.android.com/topic/architecture).
+
+- **Model**: Represents the data and logic of the application. In this case, fetching data from the PokeAPI.
+- **View**: The user interface of the application, which displays the data and receives user interaction.
+- **ViewModel**: Acts as an intermediary between the View and the Model. It contains presentation logic and communicates with the Model to fetch and update data.
+
+## Screenshots
+<div style="display: flex; flex-direction: row;">
+<img src="https://github.com/oseo27jul/Pokedex/blob/main/blob/pantalla1.png" alt="Screenshot 1" width="250" height="450">
+<img src="https://github.com/oseo27jul/Pokedex/blob/main/blob/pantalla2.png" alt="Screenshot 2" width="250" height="450">
+<img src="https://github.com/oseo27jul/Pokedex/blob/main/blob/pantalla3.png" alt="Screenshot 3" width="250" height="450">
+<img src="https://github.com/oseo27jul/Pokedex/blob/main/blob/pantalla4.png" alt="Screenshot 4" width="250" height="450">
+</div>
+
+## Open API
+
+<img src="https://user-images.githubusercontent.com/24237865/83422649-d1b1d980-a464-11ea-8c91-a24fdf89cd6b.png" align="right" width="21%"/>
+
+## Find this repository useful? :heart:
+Support it by joining __[stargazers](https://github.com/osvaldo-esparza/Pokedex/stargazers)__ for this repository. :star: <br>
+Also, __[follow me](https://github.com/osvaldo-esparza)__ on GitHub for my next creations! 🤩
+
+## Installation
+
+To run the application, follow these steps:
+
+1. Clone this repository: `git clone https://github.com/osvaldo-esparza/pokemon-explorer.git`
+2. Open the project in Android Studio.
+3. Run the application on an emulator or Android device.
+
+## Contributions
+
+Contributions are welcome. If you find any issues or have any suggestions for improving the application, feel free to open an issue or submit a pull request.
+
+# License
+```xml
+Designed and developed by 2022 skydoves (Jaewoong Eum)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
 
 
-## Arquitectura
 
-La aplicación sigue una arquitectura MVVM (Model-View-ViewModel), donde:
 
-- **Model**: Representa los datos y la lógica de la aplicación. En este caso, la obtención de datos de la PokeAPI.
-- **View**: La interfaz de usuario de la aplicación, que muestra los datos y recibe la interacción del usuario.
-- **ViewModel**: Actúa como intermediario entre la Vista y el Modelo. Contiene la lógica de presentación y se comunica con el Modelo para obtener y actualizar los datos.
-
-## Capturas de pantalla
-
-![Screenshot 1](https://github.com/oseo27jul/Pokedex/blob/main/blob/pantalla1.png)
-![Screenshot 2](https://github.com/oseo27jul/Pokedex/blob/main/blob/pantalla2.png)
-![Screenshot 3](https://github.com/oseo27jul/Pokedex/blob/main/blob/pantalla3.png)
-![Screenshot_4](https://github.com/oseo27jul/Pokedex/blob/main/blob/pantalla4.png)
-
-## Instalación
-
-Para ejecutar la aplicación, sigue estos pasos:
-
-1. Clona este repositorio: `git clone https://github.com/tu_usuario/pokemon-explorer.git`
-2. Abre el proyecto en Android Studio.
-3. Ejecuta la aplicación en un emulador o dispositivo Android.
-
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si encuentras algún problema o tienes alguna sugerencia para mejorar la aplicación, no dudes en abrir un problema o enviar una solicitud de extracción.
-
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
